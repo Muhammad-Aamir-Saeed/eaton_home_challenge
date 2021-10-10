@@ -20,7 +20,7 @@ The devices send information that is composed of their device id and all its mea
 
 The task has a simple makefile which generates the binaries of both the server and the devices. I have also included a basic script that tells the device program to send data to the server. 
 
-To run the project run the server binary with the a valid socket number. e.g. ./server 6000 . To run the devices open another terminal, and run the ./device application together with the host, the listening socket, the device id and the number of measurements it should send. (As it is a test application i did not fix the device id's and the number of measurements a device should send). e.g ./device localhost 6000 1 2 . The device program can also be runned by the script which accepts the listening port number of the server and runs a small test. 
+To run the project run the server binary with the a valid socket number. e.g. ```./server 6000``` . To run the devices open another terminal, and run the ./device application together with the host, the listening socket, the device id and the number of measurements it should send. (As it is a test application i did not fix the device id's and the number of measurements a device should send). e.g ```./device localhost 6000 1 2``` . The device program can also be runned by the script which accepts the listening port number of the server and runs a small test. 
 
 The script should also be runned in another terminal window separate from the server terminal. Also the server application should be started first before the device application else the device would not be able to send any data.
 
