@@ -16,7 +16,7 @@ The devices send information that is composed of their device id and all its mea
 
 
 
-**Running the project**
+**4) Running the project**
 
 The task has a simple makefile which generates the binaries of both the server and the devices. I have also included a basic script that tells the device program to send data to the server. 
 
